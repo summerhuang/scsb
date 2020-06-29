@@ -1,0 +1,22 @@
+sid:xe
+username system
+password oracle
+1521
+
+jdbc:oracle:thin:@localhost:1521:XE
+
+
+
+
+CREATE TABLE MARKETRESEARCHREPORT 
+(
+  INDEXNO VARCHAR(40)
+, SHOWMEMO VARCHAR(300) 
+, PDFNAME VARCHAR(500) 
+, PDFDATA BLOB 
+, PDFTYPE INT 
+, CREATETIME TIMESTAMP 
+);
+
+1投資週報
+2另一個
